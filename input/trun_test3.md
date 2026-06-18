@@ -1,0 +1,14 @@
+---
+model: haiku
+effort: low
+---
+# タスク: trun動作確認テスト
+
+## 目的
+task_runner.shのstdinパイプ方式が正常に動作することを確認する
+
+## 作業
+- /home/nilab/trun/output/trun_test_out.md に「OK」とだけ書いて保存する
+
+## 完了条件
+- [ ] output/trun_test_out.md が存在し中身が「OK」

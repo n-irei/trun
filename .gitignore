@@ -1,0 +1,17 @@
+# タスクファイル（個人固有）
+input/*.md
+!input/_template.md
+input/done/*.md
+input/running/*.md
+input/failed/*.md
+
+# 出力（個人固有）
+output/*.md
+output/*.json
+
+# ログ
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
