@@ -6,8 +6,11 @@ input/running/*.md
 input/failed/*.md
 
 # 出力（個人固有）
-output/*.md
-output/*.json
+output/*
+!output/.gitkeep
+
+# .gitkeep は追跡する
+!**/.gitkeep
 
 # ログ
 *.log
