@@ -31,31 +31,15 @@ source ~/.bashrc
 trun
 
 # タスクファイルを配置 → 自動実行される
-cp _template.md input/my_task.md
+cp input/_template.md input/my_task.md
 # my_task.md を編集してinput/に保存
 ```
 
 ## タスクファイル形式
 
-```markdown
----
-model: sonnet
-effort: high
----
-# タスク名
+[テンプレート](input/_template.md) をコピーして使用する。
 
-## 目的
-やりたいこと
-
-## 作業
-- 手順1
-- 手順2
-
-## 完了条件
-- [ ] 検証方法
-```
-
-### フロントマター（オプション）
+YAMLフロントマターで `model` / `effort` を指定可能：
 
 | キー | デフォルト | 値の例 |
 |---|---|---|
